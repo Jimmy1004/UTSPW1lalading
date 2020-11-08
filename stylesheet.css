@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #197619ff;
+    height: 20vw;
+    color: white;
+}
+
+.Bagian-atas img{
+    padding: 4vw 5vw;
+    float: left;
+    width: 12vw;
+}
+.Bagian-atas h1{
+   padding-top: 5vw;
+   font-size: 5vw;
+}
+.Bagian-atas h3{
+    font-size: 2.5vw;
+}
+.Bagian-atas h6{
+    font-size: 1vw;
+}
+
+.teks{
+    padding-top: 3vw;
+    text-align: center;
+    padding-bottom: 3vw;
+    font-size: 3vw;
+    border-bottom: 0.3vw solid black;
+    animation-name: animasi;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes animasi {
+    0% {color: black; top: 0vw;}
+    25% {color: yellow; top: 0.5vw; }
+    50% {color: red; top: 1vw;}
+    75% {color: blue; top: 0.5vw;}
+    100% {color: black; top: 0vw;}
+}
+
+.riwayat-pendidikan h2{
+    padding: 2vw 4vw;
+    padding-bottom: 1vw;
+    font-size: 3vw;
+}
+
+.riwayat-pendidikan li{
+    margin: 0.5vw 7vw;
+    font-size: 2vw;
+}
+
+.hobi h2{
+    padding: 2vw 4vw;
+    padding-bottom: 1vw;
+    font-size: 3vw;
+}
+
+.hobi li{
+    margin: 0.5vw 7vw;
+    font-size: 2vw;
+}
+
+.keahlian h2{
+    padding: 2vw 4vw;
+    padding-bottom: 1vw;
+    font-size: 3vw;
+}
+
+.keahlian li{
+    margin: 0.5vw 7vw;
+    font-size: 2vw;
+}
+
+.motto{
+    padding: 2vw;
+    font-size: 2vw;
+    text-align: center;
+    animation-name: animasi;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+footer{
+    background-color: #197619ff;
+    height: 6.5vw;
+    color: white;
+}
+
+.footer p{
+    list-style: none;
+    padding: 2.55vw;
+    float: right;
+}
+.footer h3{
+    float: left;
+}
+
+footer p:hover{
+    background-color:  rgb(39, 59, 39);
+}
+
+.time{
+    padding: 2.5vw;
+    font-size: 2vw;
+    float: left;
+}
